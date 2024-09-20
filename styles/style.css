@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --background: #F8F8F8;
+    --fontGray: #6A6A6A;
+    --fontBlue: #3789CC;
+    --fontDarkBlue: #1F3672;
+    --fontOne: "Lora", serif;
+    --fontTwo: "Ubuntu", sans-serif;
+    --footerFont:#94A1BD;
+    --footerBackground:#1F3672;
+}
+html{
+    width: 100vw;
+}
+body{
+    width: 100vw;
+    margin: 0;
+    background-color: var(--background);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li{
+        padding: 1vh;
+        font-family: var(--fontOne);
+    a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 0.3s;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}}
+[alt="logo"]{
+    width: 100vw;
+}
+header{
+    width: 100vw;
+    background-color: var(--background);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+}
+figcaption{
+    font-family: var(--fontTwo);
+}
+h1{
+    color: var(--fontDarkBlue);
+    font-family: var(--fontOne);
+}
+p{
+    font-family: var(--fontTwo);
+}
+.continueReading{
+    text-transform: uppercase;
+    color: var(--fontBlue);
+    font-weight: bold;
+    text-decoration: none;
+}
+.feedPic{
+    max-width: 80vw;
+}
+.mainContent{
+    background-color: var(--background);
+    width: 95vw;
+    margin: auto;
+    padding-bottom: 2vh;
+    p a{
+        text-decoration: underline;
+        color: var(--fontBlue);
+    }
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--footerBackground);
+    color: var(--footerFont);
+    p:first-child{
+  font-weight: bold;
+    }
+}
+.additionalWindows{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    padding: 1rem;
+    border: 0.6rem solid #6A6A6A;
+    margin-bottom: 1rem;
+    figure{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    figure .additionalWindowsImg{
+        width: 70vw;
+        height: 10vh;
+        object-fit: cover;
+    }
+    a{
+        text-decoration: none;
+        color: var(--fontBlue);
+    }
+}
